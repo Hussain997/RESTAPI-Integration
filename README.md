@@ -19,13 +19,13 @@ Spring Boot REST API in Java to consume "https://api.coindesk.com/v1/bpi/current
 - Configure MySQL database settings in the application.yml file located in src/main/resources.
 - Create Database **coindesk** in MySQL.
 - Change the database username and password in application.yml.
-The default port of the database is 3306. Configure as per your database port in application.yml.
+- The default port of the database is 3306. Configure as per your database port in application.yml.
 - Build the project using Maven: mvn clean install.
 - Run the application: mvn spring-boot:run.
 - The application will start running on localhost:8086.
 
 ### Scripts for Database Setup
-A script file named Scheme.sql located in src/main/resources/db contains SQL commands to create the necessary database schema and tables.
+A script file named **Scheme.sql** located in src/main/resources/db contains SQL commands to create the necessary database schema and tables.
 
 ### API Endpoints
 You can use the URL (http://localhost:8086/coindesk/fetch-data) for API Endpoints.
