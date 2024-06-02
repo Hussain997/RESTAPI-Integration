@@ -1,6 +1,6 @@
-Integratione Assignment
-Description
-Spring Boot REST API in Java to consume "https://api.coindesk.com/v1/bpi/currentprice.json", saving data into a database
+Integration Assignment
+    Description
+        Spring Boot REST API in Java to consume "https://api.coindesk.com/v1/bpi/currentprice.json", saving data into a database
 
 Technology Stack
 Spring Boot 3.3.0
